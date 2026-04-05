@@ -18,10 +18,9 @@ The results are visualized through an interactive Streamlit dashboard featuring 
 ---
 
 ## 📁 Project Structure
-
 spark_user_activity_project/
 │
-├── spark_analysis.py # Core PySpark processing engine
+├── user_activity_spark.py # Core PySpark processing engine
 ├── streamlit_app.py # Interactive Streamlit dashboard
 ├── ecommerce_user_activity.csv # Synthetic dataset (20 users, 103 records)
 └── requirements.txt # Python dependencies
