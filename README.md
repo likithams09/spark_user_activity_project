@@ -1,4 +1,4 @@
-#  User Activity Pattern Detection using Apache Spark
+# User Activity Pattern Detection using Apache Spark
 
 > A Big Data Analytics project that detects e-commerce user behavior patterns and anomalies using Apache Spark and Streamlit.
 
@@ -18,12 +18,14 @@ The results are visualized through an interactive Streamlit dashboard featuring 
 ---
 
 ## 📁 Project Structure
+```
 spark_user_activity_project/
 │
-├── user_activity_spark.py # Core PySpark processing engine
-├── streamlit_app.py # Interactive Streamlit dashboard
-├── ecommerce_user_activity.csv # Synthetic dataset (20 users, 103 records)
-└── requirements.txt # Python dependencies
+├── user_activity_spark.py
+├── streamlit_app.py
+├── ecommerce_user_activity.csv
+└── requirements.txt
+```
 
 
 ## 🛠️ Tech Stack
@@ -63,9 +65,9 @@ Interactive Streamlit dashboard with filters and visual insights.
 
 ## 📊 Results
 
-- Peak activity hour: **13:00 (1 PM)**  
-- Most common action: **View (65%)**  
-- Anomalous users detected: **7 out of 20 (35%)**
+- Peak activity hour: **13:00 (1 PM)**
+- Most common action: View (65%)  
+- Anomalous users detected: 7 out of 20 (35%)
 
 
 ## 🚀 How to Run
@@ -75,7 +77,7 @@ Interactive Streamlit dashboard with filters and visual insights.
 pip install pyspark streamlit pandas plotly
 
 # Run Spark processing
-python spark_analysis.py
+python user_activity_spark.py 
 
 # Launch dashboard
 streamlit run streamlit_app.py
@@ -100,4 +102,4 @@ streamlit run streamlit_app.py
 - **Course:** B.Tech Big Data Analytics  
 - **Academic Year:** 2025–26  
 - **GitHub:** [@likithams09](https://github.com/likithams09)
-
+  
