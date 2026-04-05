@@ -1,4 +1,4 @@
-# ⚡ User Activity Pattern Detection using Apache Spark
+#  User Activity Pattern Detection using Apache Spark
 
 > A Big Data Analytics project that detects e-commerce user behavior patterns and anomalies using Apache Spark and Streamlit.
 
