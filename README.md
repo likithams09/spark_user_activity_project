@@ -7,7 +7,7 @@
 👉 [Click Here to View the Live App](https://sparkuseractivityproject-ysse8bezamytzuddn9g5nq.streamlit.app/)
 
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes how users interact with an e-commerce platform by tracking events such as product views, cart additions, and purchases.
 
@@ -17,7 +17,7 @@ The results are visualized through an interactive Streamlit dashboard featuring 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 spark_user_activity_project/
 │
@@ -28,7 +28,7 @@ spark_user_activity_project/
 ```
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -40,7 +40,7 @@ spark_user_activity_project/
 | GitHub | Version control |
 
 
-## 💡 How It Works
+## How It Works
 
 **Step 1 — Dataset Design**  
 A synthetic dataset of 103 records representing 20 users was created.
@@ -63,14 +63,14 @@ View → Cart → Purchase
 Interactive Streamlit dashboard with filters and visual insights.
 
 
-## 📊 Results
+## Results
 
 - Peak activity hour: **13:00 (1 PM)**
 - Most common action: View (65%)  
 - Anomalous users detected: 7 out of 20 (35%)
 
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 # Install dependencies
@@ -84,13 +84,13 @@ streamlit run streamlit_app.py
 
 ```
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3.10+
 - Java 11 (required for Spark)
 
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Real-time data processing using Spark Streaming  
 - Kafka integration for live data ingestion  
